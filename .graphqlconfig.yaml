@@ -1,0 +1,9 @@
+projects:
+  VMEmperor:
+    schemaPath: schema.graphql
+    includes:
+      - "src/*.graphql"
+    extensions:
+      endpoints:
+        default:
+          url: 'https://fakerql.com/graphql'
